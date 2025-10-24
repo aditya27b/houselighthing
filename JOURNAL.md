@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/24/2025 - figuring out which microcontroller and relay to use  
+## 10/24/2025 2 PM - figuring out which microcontroller and relay to use  
 
 ### project outlook....
 controlling about 15-16 lights which lightup my house from front and create multiple creative and visually appealing patterns via the same and not having to turn them on and off at specific timing.
@@ -15,5 +15,28 @@ controlling about 15-16 lights which lightup my house from front and create mult
 based on my requirement of controlling about 15-16 lights i figured out that using esp32 would be best as i need it to be working without a timer module like those DS3212 modules... and adding the website functionality would be easier as it has 2 cores in esp32 and has more GPIO pins as compared to esp8266.. so finalized with this one.
 ### **relay selection**
 i have the generic 12v and 5v coil relay and they can handle upto 10A of current at 12v and nearly 2A at 220v so it should work for me.. and i went with 5v relay as i would help me easily power with a single 5v adapter.![WhatsApp Image 2025-10-24 at 14.05.38_13e04f07.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--3b223c5a17f030746409057228c54c382877d194/WhatsApp%20Image%202025-10-24%20at%2014.05.38_13e04f07.jpg)
+  
+
+## 10/24/2025 5 PM - wiring and testing relay  
+
+### wiring the 5v relay 
+used a bare relay at first learned how to hook up a relay wired it with two lights to check the output and if its working in its NO & NC 
+had this working
+![WhatsApp Image 2025-10-24 at 17.38.52_d573c0dc.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA4MCwicHVyIjoiYmxvYl9pZCJ9fQ==--67372a2d233e1d82bf78ebb6969d0d02394ba8c3/WhatsApp%20Image%202025-10-24%20at%2017.38.52_d573c0dc.jpg)
+switching to a more cleaner version made it with a PCB
+attached a wire terminal with screws. had this working but since it took me too long to solder and wire this single module. i thought of an alternate
+![WhatsApp Image 2025-10-24 at 17.40.39_184732c6.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--6db1a901ce4cdd4aaf53af776fb2df23cda7fd4c/WhatsApp%20Image%202025-10-24%20at%2017.40.39_184732c6.jpg)
+
+### **using module instead**
+i found myself 2 8 channel relay module and i decided to go with it..
+it fullfills the requirement as it now gives me option to control 16 points..
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--6abba02bee007359c7bee8c445768f07a425643d/image.png)
+
+
+furthermore planned on how will i wire the lights 
+so there are 13 lights
+7 pink 6 white
+along with 1 pink rope light and 1 white rope light
+so they will be connected like this 
   
 
