@@ -40,7 +40,7 @@ along with 1 pink rope light and 1 white rope light
 so they will be connected like this 
   
 
-## 10/25/2025 - completed the prototype   
+## 10/25/2025 1 PM - completed the prototype   
 
 finally hooked up two 8 channel relay with the esp and a single voltage regulator for the same.
 
@@ -61,5 +61,16 @@ we have a functional WEB interface in the local network and it allows me to swit
 
 
 
+  
+
+## 10/25/2025 10 PM - finishing up  
+
+Finished the project hardwired the 220V leds and tested them out. worked flawlessly
+![WhatsApp Image 2025-10-25 at 22.38.38_3b75aa12](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ4MywicHVyIjoiYmxvYl9pZCJ9fQ==--24b286774a2b3c4a89fec0a0b68dce9b27ee9d14/WhatsApp%20Image%202025-10-25%20at%2022.38.38_3b75aa12.jpg)
+
+
+![WhatsApp Image 2025-10-25 at 22.40.49_435ccb22](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ4NSwicHVyIjoiYmxvYl9pZCJ9fQ==--88053e0501f822b43912a9e05bf8ae6946cbc852/WhatsApp%20Image%202025-10-25%20at%2022.40.49_435ccb22.jpg)
+
+attached the esp onto breadboard and mounted it onto the wood piece and screwed the relay boards into place... controlled the phase wire of the 220v lights and lit up my house tastefully!!
   
 
