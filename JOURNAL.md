@@ -40,3 +40,26 @@ along with 1 pink rope light and 1 white rope light
 so they will be connected like this 
   
 
+## 10/25/2025 - completed the prototype   
+
+finally hooked up two 8 channel relay with the esp and a single voltage regulator for the same.
+
+the final wiring diagram looks like ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM3NCwicHVyIjoiYmxvYl9pZCJ9fQ==--8a74da9183fbe77c20bb067e6632e53bb9525e3d/image.png)
+thats the basic wiring hooked up with jumper cables from the esp to relay module...
+further, 
+most of my time went in coding this 
+started out with basic lighting patterns to test out the concept..
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM3NywicHVyIjoiYmxvYl9pZCJ9fQ==--ba2200f7b6a2c30dee6de5a83e63f1a0c9758faa/image.png)
+afterwards i have used AI to come up with different patterns and their code for the same 
+as this could get repatative in coding...
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM3OCwicHVyIjoiYmxvYl9pZCJ9fQ==--777266113284543691bddf33a4a693c34f7a186b/image.png)
+after ensuring all of this is working seemlessly it took me multiple iterations to get the web portal working in sync without blocking the webserver response system.. 
+ after all this it was finally completed 
+
+we have a functional WEB interface in the local network and it allows me to switch pattern alter timing of each mode and enabling and disabling it.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--30e8ef4ce592a2ce6c8002c32588b855578d3549/image.png)
+
+
+
+  
+
