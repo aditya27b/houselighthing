@@ -11,8 +11,8 @@
 // ========================================
 // WIFI CONFIGURATION
 // ========================================
-const char* ssid = "wh%pnk_cl1xv3";
-const char* password = "Y0USHA11NOT(onnect";
+const char* ssid = "xx";
+const char* password = "x";
 const char* ntpServer = "pool.ntp.org";
 const char* timeZone = "IST-5:30";
 
