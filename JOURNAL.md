@@ -74,3 +74,10 @@ Finished the project hardwired the 220V leds and tested them out. worked flawles
 attached the esp onto breadboard and mounted it onto the wood piece and screwed the relay boards into place... controlled the phase wire of the 220v lights and lit up my house tastefully!!
   
 
+## 10/25/2025 11 PM - concluding the project  
+
+### 12 hour total time spent on the project with 6 hours daily average for 2 consecutive days
+_there is no detailed BOM with prices because these parts were given to me years ago...._
+![WhatsApp Image 2025-10-24 at 13.53.47_805878df](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--00471d386a34beb8da63c23ee6f3ebbaa140c4b8/WhatsApp%20Image%202025-10-24%20at%2013.53.47_805878df.jpg)
+  
+
